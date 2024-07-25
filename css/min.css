@@ -1,0 +1,44 @@
+/* XS */
+@media (max-width:575PX) {
+   
+}
+/* SM */
+@media (min-width:576px) {
+    .containar{
+        max-width: 540px;
+    }
+}
+/* MD */
+@media (min-width:768px) {
+    .containar{
+        max-width: 720px;
+    }
+}
+/* LG */
+@media (min-width:992px) {
+    .containar{
+        max-width: 960px;
+    }
+    nav{
+        display: block;
+    }
+    .benner{
+        height: 700px;
+    }
+    .about-content{
+        padding: 48px;
+    }
+}
+/* XL */
+@media (min-width:1200px) {
+    .containar{
+        max-width: 1140px;
+    }
+}
+
+/* XXL */
+@media (min-width:1400px) {
+    .containar{
+        max-width: 1320px;
+    }
+}
